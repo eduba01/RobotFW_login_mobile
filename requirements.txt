@@ -1,0 +1,5 @@
+robotframework
+robotframework-AppiumLibrary
+robotframework-Faker
+pyyaml
+AppiumLibrary
