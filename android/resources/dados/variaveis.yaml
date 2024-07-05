@@ -4,3 +4,9 @@ login:
     name: Fulano de Tal
     email: spclash01@gmail.com
     senha: 123456@
+    usuario_logado: robotfw
+
+home:
+    busca: 
+        camiseta: camiseta
+        blusa: blusa

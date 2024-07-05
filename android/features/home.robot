@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    -------- App enjoei  --------
-...    Validar login e busca
+...    Validar busca
 ...    TESTES
 Resource        ../resources/base.robot
 Default tags    positivo
@@ -12,9 +12,8 @@ Test Teardown     Fechar App
  
 
 *** Test Cases ***
-CT01 - Validar login
-    [Tags]     CT-001      login
-    Dado que estou na tela principal do app
-    Quando faço login
-    Então vejo a mensagem de usuário logado
- 
+CT01 - Validar busca       
+    [Tags]     CT-001      busca
+    Dado que estou logado na home
+    Quando realizo busca por "${home.busca.camiseta}"
+    Então vejo o produto "${home.busca.camiseta}"

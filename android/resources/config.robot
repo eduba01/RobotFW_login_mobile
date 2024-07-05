@@ -20,5 +20,5 @@ Open App
 
 
 Fechar App
-	#Capture Page Screenshot
+	Capture Page Screenshot
 	Close Application
