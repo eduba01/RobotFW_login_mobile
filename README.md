@@ -1,8 +1,11 @@
- 
----
-  
-![Robot Framework](https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png)
+ <h1 align="center">Hi 👋, I'm Eduardo Azevedo</h1>
+<h3 align="center">Automatizador de testes</h3>
 
+
+ <img src="https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png" alt="cypress" width="300" height="80"/> 
+ 
+
+---
 ## Testando aplicação Mobile   <br />
   
 ## 📋  Detalhes   <br />
@@ -155,9 +158,8 @@ logar com o usuario e senha da rede (mesmo usuario do gitlab)
 ````
 
  
- 
-<h1 align="center">Hi 👋, I'm Eduardo Azevedo</h1>
-<h3 align="center">Automatizador de testes</h3>
+ <br />
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eduba01&label=Profile%20views&color=0e75b6&style=flat" alt="eduba01" /> </p>
 
