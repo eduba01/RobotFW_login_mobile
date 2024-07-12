@@ -1,7 +1,7 @@
 *** Settings ***
-Documentation    -------- App enjoei  --------
+Documentation    --- App enjoei  ---
 ...    Validar login e busca
-...    TESTES
+...    
 Resource        ../resources/base.robot
 Default tags    positivo
 
