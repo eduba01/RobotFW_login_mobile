@@ -7,7 +7,7 @@ ${TIMEOUT}                     25
 
 *** Keywords ***
 Open App
-    open application        http://localhost:4723/wd/hub
+    open application        http://localhost:4723
 	...                     platformName=android
 	...                     automationName=UIAutomator2
 	...                     app=${APP} 
