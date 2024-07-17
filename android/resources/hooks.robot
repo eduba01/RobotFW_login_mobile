@@ -26,3 +26,11 @@ verificar se o elemento esta presente
     [Arguments]                       ${element}
     wait until element is visible     ${element}
     Page Should Contain Element       ${element}
+
+Rolar para baixo ate encontrar o elemento loop 
+    [Arguments]       ${elemento}
+    FOR    ${a}    IN RANGE    10
+        ${IsElementVisible} =  Run Keyword And Return Status    Element Should Be Visible  ${elemento}
+        Run Keyword If    '${IsElementVisible}'=='False'        swipe by percent    50     50     50    10  2000 
+        ...     ELSE    Exit For Loop
+    END  

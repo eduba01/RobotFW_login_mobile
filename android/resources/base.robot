@@ -48,3 +48,18 @@ Fazer busca
     clicar no elemento                 ${BUSCA_LBL}
     inserir texto                      ${BUSCA_LBL}    ${busca}
     Press Key Code         66          # Clica no botão ENTER - Android
+
+Adicionar produto na sacola
+    clicar no elemento                                    ${PRODUTO_Nome}
+    Rolar para baixo ate encontrar o elemento loop        ${BTN_Adicionar_Carrinho}
+    clicar no botao                                       ${BTN_Adicionar_Carrinho}                                             
+    clicar no botao                                       ${BTN_Conferir_Sacolinha}
+
+pegar o texto do elemento
+    [Arguments]    ${elemento}
+    verificar se o elemento esta presente    ${elemento}
+    ${texto}   Get Text        ${elemento}        
+    Log To Console             ${texto}
+    Log                        ${texto}
+    Set Global Variable        ${TXT_Elemento}    ${texto}
+    [Return]    ${TXT_Elemento} 

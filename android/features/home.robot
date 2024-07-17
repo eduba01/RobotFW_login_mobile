@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    --- App enjoei  ---
-...    Validar busca
+...    Validar a home
 ...    
 Resource        ../resources/base.robot
 Default tags    positivo
@@ -15,5 +15,14 @@ Test Teardown     Fechar App
 CT01 - Validar busca       
     [Tags]     CT-001      busca
     Dado que estou logado na home
-    Quando realizo busca por "${home.busca.camiseta}"
-    Então vejo o produto "${home.busca.camiseta}"
+    Quando realizo busca por "${produtos.produto_1}"
+    Então vejo o produto "${produtos.produto_1}"
+
+CT02 - Validar produto na sacola       
+    [Tags]     CT-002      
+    Dado que estou logado na home
+    Quando realizo busca por "${produtos.produto_1}"
+    E adiciono o produto na sacola
+    Então vejo o produto na sacola
+
+

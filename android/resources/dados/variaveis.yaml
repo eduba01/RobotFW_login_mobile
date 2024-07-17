@@ -5,8 +5,7 @@ login:
     email: spclash01@gmail.com
     senha: 123456@
     usuario_logado: robotfw
+ 
+produtos:
+    produto_1: camiseta
 
-home:
-    busca: 
-        camiseta: camiseta
-        blusa: blusa
