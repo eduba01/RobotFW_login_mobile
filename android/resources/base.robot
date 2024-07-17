@@ -44,6 +44,7 @@ Abrir a home logado
 
 Fazer busca
     [Arguments]        ${busca}
+    clicar no botao                    ${Menu_Busca} 
     clicar no elemento                 ${BUSCA_LBL}
     inserir texto                      ${BUSCA_LBL}    ${busca}
     Press Key Code         66          # Clica no botão ENTER - Android
