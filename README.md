@@ -1,7 +1,7 @@
  
- <img src="https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png" alt="cypress" width="300" height="80"/> 
- 
- 
+ <img src="https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png" alt="cypress" width="300" height="65"/> 
+
+
 ---
 ## Testando aplicação Mobile   <br/>
   
@@ -25,7 +25,7 @@
     ├── requirements.txt          # Bibliotecas para instalações
  ├── ios
 ````
-
+📥
 ## 🛠️  Instalação e configurações    <br/>
 
 **Precondições:**
@@ -72,8 +72,36 @@ Ou usar o arquivo com os requisitos:   <br/>
 ````
   pip install -r requirements.txt
 ````
+  
+##  APPIUM - Instalacao   <br/>
+Doc - https://appium.io/docs/en/2.0/quickstart/install/
  
- 
+### Comando para Instalar o Appium globalmente : 
+ ````
+npm install -g appium
+````
+### Instale o Driver UIautomator2:
+Doc - https://appium.io/docs/en/2.0/quickstart/uiauto2-driver/
+````
+appium driver install uiautomator2
+````
+### Verificar a versão do Appium
+```` 
+appium --version
+```` 
+### Comando para iniciar o appium server: 
+````
+appium
+````
+   <br/>
+### No caso de erro com o appium, instale o Appium Doctor 
+````
+npm install appium-doctor -g
+````
+```` 
+appium-doctor -h
+````
+
 ### Android studio  <br/>
 
 * Criar um novo device - Simulador    <br/>
@@ -152,11 +180,13 @@ logar com o usuario e senha da rede (mesmo usuario do gitlab)
 3. Executar a automação com o comando.    <br/>
 ````
  robot -d ./results login.robot
+ 
 
+![image](https://img.icons8.com/?size=100&id=v551nqGeHhGn&format=png&color=000000)
 ````
 <br/>   * Informando uma tag:
 ````
  robot -d ./results -i CT-001 login.robot
 ````
 
- 
+ ✨
