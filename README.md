@@ -72,7 +72,36 @@ Ou usar o arquivo com os requisitos:   <br/>
 ````
   pip install -r requirements.txt
 ````
- 
+
+##  APPIUM - Instalacao   <br/>
+Doc - https://appium.io/docs/en/2.0/quickstart/install/
+
+
+### Comando para Instalar o Appium globalmente : 
+ ````
+npm install -g appium
+````
+### Instale o Driver UIautomator2:
+Doc - https://appium.io/docs/en/2.0/quickstart/uiauto2-driver/
+````
+appium driver install uiautomator2
+````
+### Verificar a versão do Appium
+```` 
+appium --version
+```` 
+### Comando para iniciar o appium server: 
+````
+appium
+````
+   <br/>
+### No caso de erro com o appium, instale o Appium Doctor 
+````
+npm install appium-doctor -g
+````
+```` 
+appium-doctor -h
+````
  
 ### Android studio  <br/>
 
