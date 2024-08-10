@@ -1,5 +1,5 @@
  
- <img src="https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png" alt="cypress" width="300" height="80"/> 
+ <img src="https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png" alt="cypress" width="300" height="65"/> 
  
  
 ---
